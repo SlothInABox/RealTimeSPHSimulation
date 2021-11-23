@@ -1,0 +1,16 @@
+﻿  Application.cpp
+D:\Physics Projects\SPHProject\src\LibConstants.h(20,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(20,27): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(21,32): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(22,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(22,30): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  Simulation.cpp
+D:\Physics Projects\SPHProject\src\LibConstants.h(20,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(20,27): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(21,32): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(22,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Physics Projects\SPHProject\src\LibConstants.h(22,30): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  Generating Code...
+  SPHProject.vcxproj -> D:\Physics Projects\SPHProject\Debug\SPHProject.exe
