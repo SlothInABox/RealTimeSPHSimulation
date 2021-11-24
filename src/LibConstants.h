@@ -10,7 +10,7 @@ namespace SolverParameters
 	const static float KERNEL_RADIUS = 16.0f;
 	const static float KERNEL_RADIUS_SQRD = KERNEL_RADIUS * KERNEL_RADIUS;
 	const static float PARTICLE_MASS = 2.5f;
-	const static float VISCOSITY = 200.0f;
+	const static float VISCOSITY = 50.0f;
 	const static float TIMESTEP = 0.0005f;
 	const double PI = 3.14159265358979323846;
 }
@@ -26,8 +26,8 @@ namespace SimulationParameters
 {
 	const static float BOUNDARY_EPSILON = SolverParameters::KERNEL_RADIUS;
 	const static float BOUND_DAMPING = -0.5f;
-	const static int MAX_PARTICLES = 2500;
-	const static int DAM_PARTICLES = 500;
+	const static int MAX_PARTICLES = 10000;
+	const static int DAM_PARTICLES = 10000;
 	const static int BLOCK_PARTICLES = 250;
 }
 
@@ -35,6 +35,6 @@ namespace WindowParameters
 {
 	const static int WINDOW_WIDTH = 800;
 	const static int WINDOW_HEIGHT = 600;
-	const static double VIEW_WIDTH = 1.5f * 800.0f;
-	const static double VIEW_HEIGHT = 1.5f * 600.0f;
+	const static double VIEW_WIDTH = WINDOW_WIDTH;
+	const static double VIEW_HEIGHT = WINDOW_HEIGHT;
 }

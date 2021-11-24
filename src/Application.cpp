@@ -34,7 +34,7 @@ GLFWwindow* InitWindow()
 	return window;
 }
 
-int main(int argc, char** argv)
+int main()
 {
 	GLFWwindow* window = InitWindow();
 
@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 	/* Loop until user closes window */
 	while (!glfwWindowShouldClose(window))
 	{
-		/* Update simulation */
+		/* Update fluid */
 		fluid.Update();
 
 		/* Render here */

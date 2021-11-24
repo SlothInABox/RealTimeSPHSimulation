@@ -107,34 +107,6 @@ void Fluid::CalculateDensityPressure()
 
 void Fluid::CalculateForces()
 {
-	//for (Particle& particle : particles)
-	//{
-	//	Vector2D<float> pressureForce;
-	//	Vector2D<float> viscosityForce;
-
-	//	for (Particle& otherParticle : particles)
-	//	{
-	//		if (particle == otherParticle)
-	//		{
-	//			continue;
-	//		}
-
-	//		Vector2D<float> disp = otherParticle.position - particle.position;
-	//		float dist = disp.Magnitude();
-
-	//		if (dist < SolverParameters::KERNEL_RADIUS)
-	//		{
-	//			// Pressure force contribution
-	//			pressureForce += -disp.Normalize() * SolverParameters::PARTICLE_MASS * (particle.pressure + otherParticle.pressure) / (2.0f * otherParticle.density) * Kernel::SPIKY_GRAD * std::pow(SolverParameters::KERNEL_RADIUS - dist, 3.0f);
-	//			// Viscosity force contribution
-	//			viscosityForce += SolverParameters::VISCOSITY * SolverParameters::PARTICLE_MASS * (otherParticle.velocity - particle.velocity) / otherParticle.density * Kernel::VISC_LAP * (SolverParameters::KERNEL_RADIUS - dist);
-	//		}
-	//	}
-
-	//	Vector2D<float> gravityForce = SolverParameters::G * SolverParameters::PARTICLE_MASS / particle.density;
-	//	particle.force = pressureForce + viscosityForce + gravityForce;
-	//}
-
 	for (std::vector<Cell>& row : grid)
 	{
 		for (Cell& cell : row)
