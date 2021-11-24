@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Particle.h"
 #include "Vector2D.h"
-#include "Simulation.h"
+#include "Fluid.h"
 #include "LibConstants.h"
 
 GLFWwindow* InitWindow()
@@ -38,13 +38,13 @@ int main(int argc, char** argv)
 {
 	GLFWwindow* window = InitWindow();
 
-	Simulation simulation;
+	Fluid fluid;
 
 	/* Loop until user closes window */
 	while (!glfwWindowShouldClose(window))
 	{
 		/* Update simulation */
-		simulation.Update();
+		fluid.Update();
 
 		/* Render here */
 		glClear(GL_COLOR_BUFFER_BIT);
@@ -57,7 +57,7 @@ int main(int argc, char** argv)
 		glColor4f(0.2f, 0.6f, 1.f, 1);
 		glBegin(GL_POINTS);
 		/* Particle positions */
-		for (const Particle& particle : simulation.particles)
+		for (const Particle& particle : fluid.particles)
 		{
 			glVertex2f(particle.position.x, particle.position.y);
 		}

@@ -35,6 +35,6 @@ namespace WindowParameters
 {
 	const static int WINDOW_WIDTH = 800;
 	const static int WINDOW_HEIGHT = 600;
-	const static double VIEW_WIDTH = 1.5 * 800.0f;
-	const static double VIEW_HEIGHT = 1.5 * 600.0f;
+	const static double VIEW_WIDTH = 1.5f * 800.0f;
+	const static double VIEW_HEIGHT = 1.5f * 600.0f;
 }

@@ -5,16 +5,31 @@ D:\Physics Projects\SPHProject\src\LibConstants.h(21,41): warning C4244: 'initia
 D:\Physics Projects\SPHProject\src\LibConstants.h(21,32): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(22,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(22,30): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
-  Particle.cpp
-  Simulation.cpp
+  Cell.cpp
+  Fluid.cpp
 D:\Physics Projects\SPHProject\src\LibConstants.h(20,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(20,27): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(21,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(21,32): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(22,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
 D:\Physics Projects\SPHProject\src\LibConstants.h(22,30): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Physics Projects\SPHProject\src\Fluid.cpp(51,20): warning C4018: '<': signed/unsigned mismatch
+D:\Physics Projects\SPHProject\src\Fluid.cpp(53,21): warning C4018: '<': signed/unsigned mismatch
+D:\Physics Projects\SPHProject\src\Fluid.cpp(58,36): warning C4018: '>': signed/unsigned mismatch
+D:\Physics Projects\SPHProject\src\Fluid.cpp(66,37): warning C4018: '>': signed/unsigned mismatch
+D:\Physics Projects\SPHProject\src\Fluid.cpp(220,9): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Physics Projects\SPHProject\src\Fluid.cpp(221,9): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 111 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  337 of 348 functions (96.8%) were compiled, the rest were copied from previous compilation.
+    250 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   SPHProject.vcxproj -> D:\Physics Projects\SPHProject\Release\SPHProject.exe

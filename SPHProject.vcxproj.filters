@@ -21,7 +21,10 @@
     <ClCompile Include="src\Particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Simulation.cpp">
+    <ClCompile Include="src\Fluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Cell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,10 +35,13 @@
     <ClInclude Include="src\Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Simulation.h">
+    <ClInclude Include="src\Fluid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\LibConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -152,13 +152,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />
+    <ClCompile Include="src\Cell.cpp" />
     <ClCompile Include="src\Particle.cpp" />
-    <ClCompile Include="src\Simulation.cpp" />
+    <ClCompile Include="src\Fluid.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Cell.h" />
     <ClInclude Include="src\LibConstants.h" />
     <ClInclude Include="src\Particle.h" />
-    <ClInclude Include="src\Simulation.h" />
+    <ClInclude Include="src\Fluid.h" />
     <ClInclude Include="src\Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
